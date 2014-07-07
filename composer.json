@@ -1,0 +1,23 @@
+{
+    "name": "ejunker/parallel-collection",
+    "description": "",
+    "authors": [
+        {
+            "name": "Eric Junker",
+            "email": "ejunker@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ejunker\\ParallelCollection\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
